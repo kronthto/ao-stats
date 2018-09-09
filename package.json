@@ -1,0 +1,28 @@
+{
+  "name": "aceonline-stats",
+  "version": "1.0.0",
+  "description": "AceOnline stat value calculations like AceCalcs.net",
+  "main": "src/aostats.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kronthto/ao-stats.git"
+  },
+  "keywords": [
+    "aceonline",
+    "stats",
+    "acecalcs",
+    "airrivals",
+    "sco"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kronthto/ao-stats/issues"
+  },
+  "homepage": "https://github.com/kronthto/ao-stats",
+  "devDependencies": {
+    "jest": "^23.5.0"
+  }
+}
