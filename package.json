@@ -1,6 +1,5 @@
 {
   "name": "aceonline-stats",
-  "version": "1.0.0",
   "description": "AceOnline stat value calculations like AceCalcs.net",
   "main": "src/aostats.js",
   "scripts": {
