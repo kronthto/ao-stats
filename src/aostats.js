@@ -42,8 +42,7 @@ function calcFuel(fuelAmount) {
 }
 
 function calcCapacity(fuelAmount) {
-  // TODO: Calculates: 1680, actual ingame: 1740
-  return fuelAmount * 70;
+  return (fuelAmount * 60) + 300;
 }
 
 module.exports = {

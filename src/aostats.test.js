@@ -33,6 +33,5 @@ test('fuel', () => {
 });
 
 test.skip('capacity', () => {
-  // TODO: Calculates: 1680, actual ingame: 1740
   expect(aostats.capacity(24)).toBe(1740);
 });
