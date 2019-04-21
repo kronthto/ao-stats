@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/kronthto/ao-stats",
   "devDependencies": {
-    "jest": "^23.5.0"
+    "jest": "^24.7.1"
   },
   "version": "1.0.0"
 }
