@@ -1,4 +1,4 @@
-// Copied from https://web.archive.org/web/20141103083349/http://www.acecalcs.net/statcalc_old.php
+// Initially copied from https://web.archive.org/web/20141103083349/http://www.acecalcs.net/statcalc_old.php
 // Credits go to the original author Andrew Nelson / argodaemon
 
 // Values from 301 to 340 added 2019-04-21, taken from AtumSJ from the AO source code
@@ -356,7 +356,7 @@ const defense_array = [
 //Special thanks to Pervertido for recording these values on restat.
 const shield_array = [
   0, //   0
-  0,
+  60,
   79,
   99,
   120,
