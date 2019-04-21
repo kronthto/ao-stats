@@ -32,6 +32,6 @@ test('fuel', () => {
   expect(aostats.fuel(24)).toBe(240);
 });
 
-test.skip('capacity', () => {
+test('capacity', () => {
   expect(aostats.capacity(24)).toBe(1740);
 });
