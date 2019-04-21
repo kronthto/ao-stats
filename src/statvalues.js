@@ -1,5 +1,8 @@
 // Copied from https://web.archive.org/web/20141103083349/http://www.acecalcs.net/statcalc_old.php
-// All credits go to the original author Andrew Nelson / argodaemon
+// Credits go to the original author Andrew Nelson / argodaemon
+
+// Values from 301 to 340 added 2019-04-21, taken from AtumSJ from the AO source code
+
 
 //Array holds all the defense percent values for every stat from 2-300.
 //Dummy values were added for stats of 0 and 1 to make array calls much easier.
@@ -306,7 +309,47 @@ const defense_array = [
   49.98,
   50.06,
   50.15,
-]; // 291-300
+  50.24, // 301
+  50.67,
+  50.83,
+  51.00,
+  51.17,
+  51.33,
+  51.50,
+  51.67,
+  51.83,
+  52.00,
+  52.17,
+  52.33,
+  52.50,
+  52.67,
+  52.83,
+  53.00,
+  53.17,
+  53.33,
+  53.50,
+  53.67,
+  53.83,
+  54.00,
+  54.17,
+  54.34,
+  54.50,
+  54.67,
+  54.84,
+  55.00,
+  55.17,
+  55.34,
+  55.50,
+  55.67,
+  55.84,
+  56.00,
+  56.17,
+  56.34,
+  56.50,
+  56.67,
+  56.84,
+  57.00, // 340
+]; // 291-340
 
 //Array holds all the shield values for every stat from 2-300.
 //Dummy values were added for stats of 0 and 1 to make array calls much easier.
@@ -613,6 +656,46 @@ const shield_array = [
   11802,
   11859,
   11917,
-]; // 291-300
+  11976, // 301
+  12034,
+  12092,
+  12150,
+  12208,
+  12266,
+  12324,
+  12382,
+  12440,
+  12498,
+  12556,
+  12614,
+  12672,
+  12730,
+  12788,
+  12846,
+  12904,
+  12962,
+  13020,
+  13078,
+  13136,
+  13194,
+  13252,
+  13310,
+  13368,
+  13426,
+  13484,
+  13542,
+  13600,
+  13658,
+  13716,
+  13774,
+  13832,
+  13890,
+  13948,
+  14006,
+  14064,
+  14122,
+  14180,
+  14238, // 340
+]; // 291-340
 
 module.exports = { defense_array, shield_array };

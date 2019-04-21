@@ -12,14 +12,14 @@ function calcSpirit(amount) {
 }
 
 function calcDef(amount) {
-  if (amount > 300) amount = 300;
+  if (amount > 340) amount = 340;
   if (amount < 0) amount = 0;
 
   return defense_array[amount];
 }
 
 function calcShield(amount) {
-  if (amount > 300) amount = 300;
+  if (amount > 340) amount = 340;
   if (amount < 0) amount = 0;
 
   return shield_array[amount];
