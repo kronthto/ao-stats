@@ -2,7 +2,7 @@
 
 Calculate values that attack,defense,spirit,agility,shield,fuel stats provide in AceOnline / AirRivals / SCO (Space Cowboy Online).
 
-**Formulas have been taken from a [webarchive copy of acecalcs.net](https://web.archive.org/web/20141103083349/http://www.acecalcs.net/statcalc_old.php) and put into this package, as the original site is no longer reachable. All credits for the work of creating/testing those actual calculations go there.**
+**Formulas have been initially taken from a [webarchive copy of acecalcs.net](https://web.archive.org/web/20141103083349/http://www.acecalcs.net/statcalc_old.php) and put into this package, as the original site is no longer reachable. Credits for the work of creating/testing those actual calculations go there.**
 
 ## Install
 

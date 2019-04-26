@@ -1,7 +1,8 @@
-// Transcoded from https://web.archive.org/web/20141103083349/http://www.acecalcs.net/statcalc_old.php
+// Initially transcoded from https://web.archive.org/web/20141103083349/http://www.acecalcs.net/statcalc_old.php
 // Credits go to the original author Andrew Nelson / argodaemon
+// Formulas have been improved / data arrays extended based on new source code
 
-const { defense_array, shield_array } = require('./statvalues');
+const { defense_array, shield_array, pierce_array } = require('./statvalues');
 
 function calcAgi(amount) {
   return 1 / 3 + amount / 6;
@@ -12,21 +13,15 @@ function calcSpirit(amount) {
 }
 
 function calcDef(amount) {
-  if (amount > 340) amount = 340;
-  if (amount < 0) amount = 0;
-
   return defense_array[amount];
 }
 
 function calcShield(amount) {
-  if (amount > 340) amount = 340;
-  if (amount < 0) amount = 0;
-
   return shield_array[amount];
 }
 
 function calcPierce(atkAmount) {
-  return (0.3921 * Math.round(atkAmount + 10.6)) / 2.704;
+  return pierce_array[atkAmount];
 }
 
 function calcDmgInc(atkAmount) {
@@ -34,7 +29,7 @@ function calcDmgInc(atkAmount) {
 }
 
 function calcProbInc(atkAmount) {
-  return atkAmount * 0.0147 + 0.132;
+  return atkAmount * 0.0147 + 0.1324;
 }
 
 function calcFuel(fuelAmount) {
