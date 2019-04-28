@@ -13,6 +13,7 @@ Calculate values that attack,defense,spirit,agility,shield,fuel stats provide in
 ```JavaScript
 const aostats = require('aceonline-stats');
 let effectValue = aostats.method(statAmount);
+const igAtkBonusStatValue = aostats.gearStatChange.I.atk; // Access bonus stat value by gear
 ```
 
 ## Features / API methods
@@ -26,6 +27,7 @@ let effectValue = aostats.method(statAmount);
 * `shield(shieldAmount)`
 * `fuel(fuelAmount)`
 * `capacity(fuelAmount)`
+* `gearStatChange`
 
 ## Credits
 

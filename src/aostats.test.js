@@ -63,3 +63,10 @@ test('fuel', () => {
 test('capacity', () => {
   expect(aostats.capacity(24)).toBe(1740);
 });
+
+test('gearStatChange', () => {
+  expect(aostats.gearStatChange.I.atk).toBe(4);
+  expect(aostats.gearStatChange.A.eva).toBe(1);
+  expect(Object.keys(aostats.gearStatChange).length).toBe(4);
+  expect(Object.keys(aostats.gearStatChange.M).length).toBe(6);
+});
