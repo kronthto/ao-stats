@@ -40,6 +40,41 @@ function calcCapacity(fuelAmount) {
   return (fuelAmount * 60) + 300;
 }
 
+const statsPerBonusStatAndGear = {
+  I: {
+    atk: 4,
+    def: 2,
+    fuel: 3,
+    spirit: 3,
+    shield: 2,
+    eva: 4,
+  },
+  M: {
+    atk: 2,
+    def: 4,
+    fuel: 3,
+    spirit: 4,
+    shield: 3,
+    eva: 2,
+  },
+  B: {
+    atk: 3,
+    def: 3,
+    fuel: 3,
+    spirit: 3,
+    shield: 3,
+    eva: 3,
+  },
+  A: {
+    atk: 4,
+    def: 3,
+    fuel: 3,
+    spirit: 3,
+    shield: 4,
+    eva: 1,
+  }
+}
+
 module.exports = {
   evasion: calcAgi,
   skillpoints: calcSpirit,
@@ -50,4 +85,5 @@ module.exports = {
   shield: calcShield,
   fuel: calcFuel,
   capacity: calcCapacity,
+  gearStatChange: statsPerBonusStatAndGear
 };
